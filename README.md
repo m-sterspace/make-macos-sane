@@ -9,4 +9,5 @@ A series of steps and/or scripts to modify MacOS into a usable OS for someone co
 4. [Install Homebrew](https://brew.sh/) so that you can install the other stuff you need
 5. [Install middleclick-sonoma](https://github.com/artginzburg/MiddleClick-Sonoma) so that the trackpad supports three finger middleclick like it's 2012
 6. [Install rectangle](https://rectangleapp.com/) so that windows can be snapped to the side like it's 2015
-7. Open Finder, right click `desktop` > `add to dock`, then right click the dock icon and change `View content as` to `Fan` and `Sort by` to `Date Modified` so that you have access to screenshots
+7. [Install kitty](https://sw.kovidgoyal.net/kitty/binary/#binary-install) so that your terminal is GPU rendered
+8. Open Finder, right click `desktop` > `add to dock`, then right click the dock icon and change `View content as` to `Fan` and `Sort by` to `Date Modified` so that you have access to screenshots
