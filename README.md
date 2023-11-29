@@ -16,4 +16,6 @@ A series of steps and/or scripts to modify MacOS into a usable OS for someone co
     * Configure Cascadia code font by going to `~/.config/kitty/`, open `kitty.conf` and add the following line: `font_family Cascadia Code`
 11. [Install VS Code](https://code.visualstudio.com/Download) or [VS Codium](https://vscodium.com/).
     * Enable Cascadia Code & ligature support in `Settings > Font > Font Family`, and `Settings > Enable Ligatures`
-12. Open Finder, right click `desktop` > `add to dock`, then right click the dock icon and change `View content as` to `Fan` and `Sort by` to `Date Modified` so that you have access to screenshots
+12. [Install git](https://git-scm.com/download/mac), use brew
+13. [Install git credential manager](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md), use brew
+14. Open Finder, right click `desktop` > `add to dock`, then right click the dock icon and change `View content as` to `Fan` and `Sort by` to `Date Modified` so that you have access to screenshots
