@@ -3,11 +3,11 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
 
 ## Steps:
 
-1. Go to Settings > Keyboard > Keyboard Shortcuts > Modifer Keys and change `Command` ➡️ `Control`, `Control` ➡️ `Command`, and `Global` ➡️ `Command`. Repeat for any external keyboards.
-2. Go to Settings > Trackpad and enable `Tap to click`
-3. Go to Settings > Desktop & Dock and change `Click wallpaper to reveal desktop` to `Only in Stage Manager`
-4. Remove all the Apple Programs from the taskbar
-5. Use Safari to download a better browser then close it and never open it again
+1. Go to Settings > Keyboard > Keyboard Shortcuts > Modifer Keys and change `Command` ➡️ `Control`, `Control` ➡️ `Command`, and `Global` ➡️ `Command`. Repeat for any external keyboards. This will adjust most keyboard shortcuts to mirror Windows'.
+2. Go to `Settings > Trackpad` and enable `Tap to click`
+3. Go to `Settings > Desktop & Dock` and change `Click wallpaper to reveal desktop` to `Only in Stage Manager`
+4. Use Safari to download a better browser then close it and never open it again
+5. Remove all the Apple Programs from the taskbar
 6. [Install Homebrew](https://brew.sh/) so that you can install the other stuff you need
 7. [Install middleclick-sonoma](https://github.com/artginzburg/MiddleClick-Sonoma) so that the trackpad supports three finger middleclick like it's 2012
 8. [Install rectangle](https://rectangleapp.com/) so that windows can be snapped to the side like it's 2015
