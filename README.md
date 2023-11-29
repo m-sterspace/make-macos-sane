@@ -11,7 +11,7 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
 6. [Install Homebrew](https://brew.sh/) so that you can install the other stuff you need
 7. [Install middleclick-sonoma](https://github.com/artginzburg/MiddleClick-Sonoma) so that the trackpad supports three finger middleclick like it's 2012
 8. [Install rectangle](https://rectangleapp.com/) so that windows can be snapped to the side like it's 2015
-9. [Install Cascadia Code font](https://github.com/microsoft/cascadia-code/releases) Unzip > Open TTF folder > Double click `Cascadia Code.ttf`
+9. [Install the Cascadia Code](https://github.com/microsoft/cascadia-code/releases) font so that you can dare to have ligatures. Unzip > Open TTF folder > Double click `Cascadia Code.ttf`
 10. [Install kitty](https://sw.kovidgoyal.net/kitty/binary/#binary-install) so that your terminal is GPU rendered like it's 2019
     * Configure Cascadia code font by going to `~/.config/kitty/`, open `kitty.conf` and add the following line: `font_family Cascadia Code`
 11. [Install VS Code](https://code.visualstudio.com/Download) or [VS Codium](https://vscodium.com/).
