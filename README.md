@@ -3,9 +3,9 @@ A series of steps and/or scripts to modify MacOS into a usable OS for someone co
 
 ## Steps:
 
-1. Remove all the Apple Programs from the taskbar
-2. Go to Keyboard > Settings and change `Command` ➡️ `Control`, `Control` ➡️ `Command`, and `Global` ➡️ `Command`. Repeat for any external keyboards.
-3. Go to Trackpad > Settings and enable `Tap to click`
+1. Go to Keyboard > Settings and change `Command` ➡️ `Control`, `Control` ➡️ `Command`, and `Global` ➡️ `Command`. Repeat for any external keyboards.
+2. Go to Trackpad > Settings and enable `Tap to click`
+3. Remove all the Apple Programs from the taskbar
 4. Use Safari to download a better browser then close it and never open it again
 5. [Install Homebrew](https://brew.sh/) so that you can install the other stuff you need
 6. [Install middleclick-sonoma](https://github.com/artginzburg/MiddleClick-Sonoma) so that the trackpad supports three finger middleclick like it's 2012
