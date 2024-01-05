@@ -21,4 +21,8 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
     * Enable Cascadia Code & ligature support in `Settings > Font > Font Family`, and `Settings > Enable Ligatures`
 14. [Install git](https://git-scm.com/download/mac), use brew
 15. [Install git credential manager](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md), use brew
-16. Open Finder, right click `desktop` > `add to dock`, then right click the dock icon and change `View content as` to `Fan` and `Sort by` to `Date Modified` so that you have access to screenshots
+16. Install [NVM](https://nvm.sh/) to manage Node versions.
+17. Install [sdkman](https://sdkman.io/) to manage Java versions.
+18. Install [RVM](https://rvm.io/) to manage Ruby versions.
+19. Install [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) / [Android Studio](https://formulae.brew.sh/cask/android-studio) if doing native or React Native Development.
+20. Open Finder, right click `desktop` > `add to dock`, then right click the dock icon and change `View content as` to `Fan` and `Sort by` to `Date Modified` so that you have access to screenshots
