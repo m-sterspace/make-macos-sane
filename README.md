@@ -19,6 +19,9 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
 12. [Install kitty](https://sw.kovidgoyal.net/kitty/binary/#binary-install) so that your terminal is GPU rendered like it's 2019
     * Configure Cascadia code font by going to `~/.config/kitty/`, open `kitty.conf` and add the following line: `font_family Cascadia Code`
 13. [Install VS Code](https://code.visualstudio.com/Download) or [VS Codium](https://vscodium.com/).
+    * install using brew so that it adds code to the terminal:
+      * `brew install --cask visual-studio-code`
+      * -or- `brew install --cask vscodium`
     * Enable Cascadia Code & ligature support in `Settings > Font > Font Family`, and `Settings > Enable Ligatures`
 14. [Install git](https://git-scm.com/download/mac), use brew
 15. [Install git credential manager](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md), use brew
