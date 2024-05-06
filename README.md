@@ -4,7 +4,7 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
 ## Steps:
 
 1. Go to Settings > Keyboard > Keyboard Shortcuts > Modifer Keys and change `Command` to `Control`, `Control` to `Command`, and `Global` to `Command`. Repeat for any external keyboards. This will adjust most keyboard shortcuts to mirror Windows'.
-2. Go to `Settings > Trackpad` and enable `Tap to click`
+2. Go to `Settings > Trackpad` and enable `Tap to click`. Go to `Scoll & Zoom` and turn off `Natural scrolling`
 3. Go to `Settings > Desktop & Dock` and change `Click wallpaper to reveal desktop` to `Only in Stage Manager`
 4. Use Safari to download a better browser then close it and never open it again
    * Go to `Settings > Default Web Browser` and change it to your new one
