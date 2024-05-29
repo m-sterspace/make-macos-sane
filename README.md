@@ -15,6 +15,8 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
    * Run it, follow the prompt to give it access in settings, then in the top right click it to enable `Tap to click`
 9. [Install rectangle](https://rectangleapp.com/) so that windows can be snapped to the side like it's 2015
     * Run it, follow the prompt to give access in settings, then remap all the default combos. They're set to Control + Option + `X` which is the closest you'll get to Windows, but since you switched your command and control key you'll need to switch them here.
+11. Install [maccy](https://maccy.app) so that you can press command + shift + c to bring up your clipboard history.
+    * `brew install --cask maccy`
 10. [Install BetterDisplay](https://betterdisplay.pro/) so that you can control external monitor scaling like it's 2003. 
 11. [Install the Cascadia Code](https://github.com/microsoft/cascadia-code/releases) font so that you can dare to have ligatures. Unzip > Open TTF folder > Double click `Cascadia Code.ttf`. You may then have to restart your computer before it shows up in font book.
 12. [Install kitty](https://sw.kovidgoyal.net/kitty/binary/#binary-install) so that your terminal is GPU rendered like it's 2019
