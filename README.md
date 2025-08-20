@@ -15,7 +15,7 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
 
 6. Open Finder, and on the menu bar, hit `Finder` > `Settings` > `Advanced` > `Show all filename extensions`
 
-7. To enable TouchID with Sudo, open `/etc/pam.d/`. Copy `sudo_local.template` to `sudo_local`. Edit it using `sudo nano sudo_local`. Uncomment the line `auth sufficient pam_tid.so`. This will now tell sudo to use TouchId instead of a password.
+7. To enable TouchID with Sudo, open `/etc/pam.d/`. Copy `sudo_local.template` to `sudo_local`. Edit it using `sudo nano sudo_local`. Uncomment the line `auth sufficient pam_tid.so`. Close and save with `ctrl` + `x`, then `y`, then `Enter`.This will now tell sudo to use TouchId instead of a password.
 
 7. [Install Homebrew](https://brew.sh/) so that you can install the other stuff you need
 8. [Install middleclick-sonoma](https://github.com/artginzburg/MiddleClick-Sonoma) so that the trackpad supports three finger middleclick like it's 2012
