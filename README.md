@@ -9,8 +9,14 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
 4. Use Safari to download a better browser then close it and never open it again
    * Go to `Settings > Default Web Browser` and change it to your new one
 5. Remove all the Apple programs from the taskbar except Finder
+
+
 6. Run this so that you can see hidden files and folders in Finder: `defaults write com.apple.finder AppleShowAllFiles -boolean true; killall Finder;`
-7. Open Finder, and on the menu bar, hit `Finder` > `Settings` > `Advanced` > `Show all filename extensions`
+
+6. Open Finder, and on the menu bar, hit `Finder` > `Settings` > `Advanced` > `Show all filename extensions`
+
+7. To enable TouchID with Sudo, open `/etc/pam.d/`. Copy `sudo_local.template` to `sudo_local`. Edit it using `sudo nano sudo_local`. Uncomment the line `auth sufficient pam_tid.so`. This will now tell sudo to use TouchId instead of a password.
+
 7. [Install Homebrew](https://brew.sh/) so that you can install the other stuff you need
 8. [Install middleclick-sonoma](https://github.com/artginzburg/MiddleClick-Sonoma) so that the trackpad supports three finger middleclick like it's 2012
    * Run it, follow the prompt to give it access in settings, then in the top right click it to enable `Tap to click`
