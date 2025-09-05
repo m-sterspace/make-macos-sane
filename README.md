@@ -96,6 +96,8 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
     * Configure Cascadia code font by opening Ghossty's settings / config and including this line: `font-family = Cascadia Code`.
 21. [Install git](https://git-scm.com/download/mac)
     * `brew install git`
+    * run `git config --global user.name "<USERNAME>"`
+    * run `git config --global user.email "<USER.EMAIL@ADDRESS.COM>"`
 22. [Install git credential manager](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md)
     * `brew install --cask git-credential-manager`
 23. [Install VS Code](https://code.visualstudio.com/Download) or [VS Codium](https://vscodium.com/).
