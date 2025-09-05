@@ -53,7 +53,7 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
 
 ### Monitor Control
 11. [Install BetterDisplay (free)](https://betterdisplay.pro/) or [Lunar (paid)](https://lunar.fyi) so that you can control internal / external monitor brightness.
-    *   `brew install --cask `
+    *   `brew install --cask betterdisplay`
     *   `brew install --cask lunar`
     *   Run them and give them the accessibility settings they need.
    
