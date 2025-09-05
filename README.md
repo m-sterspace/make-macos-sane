@@ -92,8 +92,8 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
       * Unzip > Open TTF folder > Double click `Cascadia Code.ttf`. You may then have to restart your computer before it shows up in font book.
     * -Either- Automatically
       * `brew install --cask font-cascadia-code`
-20. [Install ghosty](https://ghostty.org) so that your terminal is GPU rendered
-    * Configure Cascadia code font by opening Ghossty's settings / config and including this line: `font-family = Cascadia Code`.
+20. [Install ghostty](https://ghostty.org) so that your terminal is GPU rendered
+    * Configure Cascadia code font by opening Ghostty's settings / config and including this line: `font-family = Cascadia Code`.
 21. [Install git](https://git-scm.com/download/mac)
     * `brew install git`
     * run `git config --global user.name "<USERNAME>"`
