@@ -39,7 +39,7 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
         * `right_command` to `right_option`
         * `right_option` to `right_command`
     * -Either- Automatically import the settings:
-        * Import [this json settings file]() by going to `Maintenance` > `Misc` > `Export & Import` > `Open config folder` and replacing the config file here.
+        * Import [this json settings file](/configs/karabiner-elements/karabiner.json) by going to `Maintenance` > `Misc` > `Export & Import` > `Open config folder` and replacing the config file here.
 
 ### Windowing Adjustments
 10. [Install rectangle](https://rectangleapp.com/) so that windows can be snapped
@@ -49,7 +49,7 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
       * Open  rectangle's settings and select `Launch on login` and `Check for updates automatically`
       * Then remap all the default combos. They're set to Control + Option + `X` which is the closest you'll get to Windows, but since you switched your command and control key you'll need to switch them here.
     * -Either- Automatically import the settings:
-      * Import [this settings json file]() by going to `Settings` > `Import` and selecting it.
+      * Import [this settings json file](/configs/rectangle/RectangleConfig.json) by going to `Settings` > `Import` and selecting it.
 
 ### Monitor Control
 11. [Install BetterDisplay (free)](https://betterdisplay.pro/) or [Lunar (paid)](https://lunar.fyi) so that you can control internal / external monitor brightness.
