@@ -44,7 +44,7 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
         * `left_control` to `left_command`
         * `right_control` to `right_command`
     * -Either- Automatically import the settings:
-        * Import [this json settings file](/configs/karabiner-elements/karabiner.json) by going to `Maintenance` > `Misc` > `Export & Import` > `Open config folder` and replacing the config file here.
+        * Import [this json settings file](/configs/karabiner-elements/karabiner.json) by going to `Maintenance` > `Misc` > `Export & Import` > `Open config folder` and replacing the config file here, though note that these configs are tied to specific keyboard models so you may want to first change one key on each of your keyboards, export the config to get the model and vendor ids, and then copy them into this premade config and reimport. 
 
 ### Windowing Adjustments
 10. [Install rectangle](https://rectangleapp.com/) so that windows can be snapped
