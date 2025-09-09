@@ -31,13 +31,18 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
 9. [Install Karibiner Elements](https://karabiner-elements.pqrs.org) so that you can remap your command / control / option / global keys to match a windows keyboard layout.
     * `brew install --cask karabiner-elements`
     * -Either- Manually adjust the settings:
-      * Run it, follow the prompts to give access in settings, then on the internal keyboard switch
+      * Run it, follow the prompts to give access in settings.
+      * Then on the internal / MacOS keyboards, switch:
         * `fn (globe)` to `left_command`,
         * `left_command` to `left_option`,
         * `left_control` to `left_command`
         * `left_option` to `left_control`
         * `right_command` to `right_option`
         * `right_option` to `right_command`
+      * And on Windows keyboards, switch:
+        * `left_command` to `left_control`
+        * `left_control` to `left_command`
+        * `right_control` to `right_command`
     * -Either- Automatically import the settings:
         * Import [this json settings file](/configs/karabiner-elements/karabiner.json) by going to `Maintenance` > `Misc` > `Export & Import` > `Open config folder` and replacing the config file here.
 
