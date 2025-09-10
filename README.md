@@ -30,6 +30,8 @@ A series of steps and/or scripts to modify MacOS into a usable OS for a develope
    * Run it, follow the prompt to give it access in settings, then in the top right click it to enable `Tap to click`
 9. [Install Karibiner Elements](https://karabiner-elements.pqrs.org) so that you can remap your command / control / option / global keys to match a windows keyboard layout.
     * `brew install --cask karabiner-elements`
+    * Run it, give it the accessibility permissions it needs.
+    * Open its Settings, Open `Misc`, `Enable Multi-touch Extension`, use the extension to disable the bottom ~15% and right ~10% of your trackpad.
     * -Either- Manually adjust the settings:
       * Run it, follow the prompts to give access in settings.
       * Then on the internal / MacOS keyboards, switch:
